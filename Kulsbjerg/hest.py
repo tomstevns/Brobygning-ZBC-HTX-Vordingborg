@@ -2,7 +2,7 @@ import random
 
 def strigl_min_hest_100_gange():
     for i in  range(100):
-        print("Stringler hesten ",i," gange")
+        print("Strigler hesten ",i," gange")
 
 
 print("Ridetøj på")

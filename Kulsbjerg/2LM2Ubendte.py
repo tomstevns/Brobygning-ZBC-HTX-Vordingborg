@@ -2,31 +2,33 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-
-
-
-
-
-"""print("Du skal nu indtaste de  3 værdier a,b,c for den ene ligning med 2 ubekendte")
+print("Du skal nu indtaste de  3 værdier a,b,c for den ene ligning med 2 ubekendte")
 print("eksempelvis x*a + y*b = c")
-a = input("Indtast nu værdien for a")
+"""a = input("Indtast nu værdien for a")
 b = input("Indtast nu værdien for b")
 c = input("Indtast nu værdien for c")
+"""
+a = int(input("Indtast nu værdien for a"))
+b = int(input("Indtast nu værdien for b"))
+c = int(input("Indtast nu værdien for c"))
+
+
+
 
 print("Du skal nu indtaste de  3 værdier a,b,c for den anden ligning med 2 ubekendte")
 print("eksempelvis x*a + y*b = c")
-d = input("Indtast nu værdien for d")
-e = input("Indtast nu værdien for e")
-f = input("Indtast nu værdien for f")
-"""
+d = int(input("Indtast nu værdien for d"))
+e = int(input("Indtast nu værdien for e"))
+f = int(input("Indtast nu værdien for f"))
 
-a = 1
+
+"""a = 1
 b = 1
 c = 5
 
 d = -1
 e = 1
-f = 2
+f = 2"""
 
 
 

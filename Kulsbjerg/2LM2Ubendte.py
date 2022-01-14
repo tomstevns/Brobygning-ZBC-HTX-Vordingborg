@@ -4,6 +4,7 @@ import numpy as np
 
 print("Du skal nu indtaste de  3 værdier a,b,c for den ene ligning med 2 ubekendte")
 print("eksempelvis x*a + y*b = c")
+print("Input værdier -100 til 100")
 """a = input("Indtast nu værdien for a")
 b = input("Indtast nu værdien for b")
 c = input("Indtast nu værdien for c")
@@ -36,10 +37,10 @@ f = 2"""
 
 # 100 linearly spaced numbers
 
-x1 = (np.linspace(-10, 10, 100))
+x1 = (np.linspace(-100, 100, 1000))
 y1 = (c-(x1*a))/b
 
-x2 = (np.linspace(-10, 10, 100))
+x2 = (np.linspace(-100, 100, 1000))
 y2 = (f-(x2*d))/e
 
 
@@ -67,13 +68,13 @@ Y = np.array([[c],[f]])
 
 
 # plot the function
-streng = str(np.linalg.solve(A, Y))
-streng.strip()
-plt.plot(streng,'g')
+
 
 plt.plot(x1, y1, 'r', label='ligning 1')
 plt.plot(x2, y2, 'b', label='ligning 2')
-
+streng = str(np.linalg.solve(A, Y))
+streng.strip()
+plt.plot(streng,'g')
 plt.legend(loc='upper left')
 
 # show the plot
